@@ -15,6 +15,7 @@ public class Calculadora {
         System.out.println("Subtracao 10 - 5 = " + subtracao);
         System.out.println("Multiplicacao 10 x 5 = " + multiplicacao);
         System.out.println("Divisao 10 / 5 = " + divisao);
+        System.out.println("Caso tente dividir por algum valor por zero, esse erro ira aparecer: ");
 
         // Tentativa de divisão por 0 Tratada.
         try {
@@ -22,8 +23,6 @@ public class Calculadora {
         } catch (IllegalArgumentException excep){
             System.out.println("Erro: " + excep.getMessage());
         }
-
-        System.out.println("Divisao por 0:  10 / 0 = " + excessao);
     }
 
     // Método para somar dois números.
