@@ -17,7 +17,7 @@ public class Estudante {
     }
 
     // Define as notas, lançando exceção se alguma for inválida
-    public void setNotas(double nota1, double nota2, double nota3) throws NotaInvalidaException {
+    public final void setNotas(double nota1, double nota2, double nota3) throws NotaInvalidaException {
         if (nota1 < 0 || nota2 < 0 || nota3 < 0) {
             throw new NotaInvalidaException("As notas não podem ser negativas.");
         }
