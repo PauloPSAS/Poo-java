@@ -1,7 +1,8 @@
+package exercicio001;
+
 public class Main {
     public static void main(String[] args) {
         try {
-            // Criação do estudante, que pode lançar NotaInvalidaException
             Estudante estudante = new Estudante("Paulo", 5, 7.3, 7.8, 7.0);
 
             // Imprime as informações do estudante

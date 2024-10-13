@@ -1,4 +1,6 @@
-// Classe Calculadora
+package exercicio002;
+
+// Classe exercicio002.Calculadora
 public class Calculadora {
 
     // Método principal main.

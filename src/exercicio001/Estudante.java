@@ -1,3 +1,5 @@
+package exercicio001;
+
 public class Estudante {
     String nome;
     int matricula;
@@ -9,7 +11,7 @@ public class Estudante {
     public Estudante(String nome, int matricula, double nota1, double nota2, double nota3) throws NotaInvalidaException {
         this.nome = nome;
         this.matricula = matricula;
-        setNotas(nota1, nota2, nota3);  // Pode lançar NotaInvalidaException
+        setNotas(nota1, nota2, nota3);  // Pode lançar exercicio001.NotaInvalidaException
     }
 
     public double getMedia() {

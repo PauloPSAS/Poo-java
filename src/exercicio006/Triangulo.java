@@ -1,4 +1,4 @@
-//biblioteca para digitar os valores dos lados pelo teclado.
+package exercicio006;//biblioteca para digitar os valores dos lados pelo teclado.
 import java.util.Scanner;
 
 public class Triangulo {

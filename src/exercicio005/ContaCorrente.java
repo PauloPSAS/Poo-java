@@ -1,3 +1,5 @@
+package exercicio005;
+
 public class ContaCorrente {
     private int numeraDaConta;
     private double saldoDaConta;

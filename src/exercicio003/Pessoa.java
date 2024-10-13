@@ -1,3 +1,5 @@
+package exercicio003;
+
 public class Pessoa {
     private int idade;
     private String endereco;

@@ -1,3 +1,5 @@
+package exercicio004;
+
 public class Livro {
     private String titulo;
     private String autor;

@@ -1,3 +1,5 @@
+package exercicio003;
+
 import java.util.Scanner;
 
 public class chamaPessoa {
