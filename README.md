@@ -1,2 +1,2 @@
 # Poo-java
- exercícios resolvidos da aula de Poo
+Exercícios resolvidos por mim da aula de POO(Programação Orientada a Objetos) da Aula do professor Antonio Dias.
