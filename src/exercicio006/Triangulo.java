@@ -1,4 +1,4 @@
-package exercicio006;//biblioteca para digitar os valores dos lados pelo teclado.
+package exercicio006;
 import java.util.Scanner;
 
 public class Triangulo {
@@ -20,9 +20,9 @@ public class Triangulo {
 
         if (triangulo.ii())
             System.out.printf("O triangulo de lados %.1f x %.1f x %.1f eh valido e ele eh %s\n", triangulo.getLadoA(),
-            triangulo.getLadoB(), triangulo.getLadoC(), triangulo.i());
+                    triangulo.getLadoB(), triangulo.getLadoC(), triangulo.i());
         else
             System.out.printf("O valores %.1f x %.1f x %.1f não tornam o triangulo valido.", triangulo.getLadoA(),
-            triangulo.getLadoB(), triangulo.getLadoC());
+                    triangulo.getLadoB(), triangulo.getLadoC());
     }
 }
